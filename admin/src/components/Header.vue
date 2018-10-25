@@ -1,7 +1,7 @@
 <template>
     <div class="header">
       <div class="flr clearfix">
-        <p class="fll">欢迎你，<strong v-if="this.$store.state.userInfo">{{this.$store.state.userInfo.username}}</strong></p>
+        <p class="fll">欢迎你，<strong v-if="this.$store.state.userInfo" style="color: gold;">{{this.$store.state.userInfo.username}}</strong></p>
         <el-dropdown class="fll select" @command="handleCommand" trigger="click">
           <span class="el-dropdown-link">
             更多选择<i class="el-icon-arrow-down el-icon--right"></i>
