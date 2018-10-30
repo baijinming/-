@@ -53,7 +53,7 @@ router.post('/:id', auth, async (req, res, next) =>{
             res.json({
                 data,
                 code: 200,
-                msg: '指派成功'
+                msg: '修改成功'
             })
         }
 
